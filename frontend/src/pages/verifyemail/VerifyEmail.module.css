@@ -1,0 +1,30 @@
+.parentDivToSuccess{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 22px;
+}
+
+
+.checkIcon{
+        font-size: 129px;
+    color: #07b507;
+}
+
+.titleSuccess{
+    font-size: 23px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.linkStyle{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background: black;
+}

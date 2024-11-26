@@ -1,0 +1,18 @@
+.parentContainer2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 0;
+}
+.parentContainer2  h4 {
+  font-size: 16px;
+  margin: 0;
+  color: #db4444;
+}
+.parentContainer2  span {
+  width: 20px;
+  display: inline-block;
+  background: #db4444;
+  height: 29px;
+  border-radius: 5px;
+}

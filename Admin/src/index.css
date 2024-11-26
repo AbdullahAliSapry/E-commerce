@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+}
+
+a.active {
+  color: rgb(219, 68, 68);
+}
+nav {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 20px 0;
+}
+.focus\:ring-4:focus {
+  box-shadow: none !important;
+}
+
+.focus\:ring-cyan-500:focus {
+  border: 1px solid rgb(219, 68, 68) !important;
+  box-shadow: rgba(219, 68, 68, 0.16) 0px 1px 3px,
+    rgb(219, 68, 68) 0px 0px 1px 1px !important;
+}

@@ -1,0 +1,121 @@
+.conToDesc {
+  display: flex;
+  padding: 50px 0;
+  width: 100%;
+  justify-content: space-between;
+}
+.editCon {
+  margin: 40px 0;
+  position: relative;
+}
+.conToDesc > div:first-child {
+  max-width: 525px;
+}
+
+.conToDesc > div:nth-child(2) > img {
+  max-width: 600px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.conToDesc > div h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.conToDesc > div p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777;
+}
+
+.moreDetailsStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 100px 0;
+  flex-wrap: wrap;
+  
+
+}
+
+.moreDetailsStyle > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 25px;
+  border: 2px solid #e3e3e3;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: black;
+  width: 270px;
+}
+
+.moreDetailsStyle > div:hover {
+  background-color: rgb(219, 68, 68);
+  color: white;
+}
+
+.moreDetailsStyle > div > div:first-child {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moreDetailsStyle > div > div:first-child i {
+  font-size: 25px;
+  color: white;
+}
+
+.moreDetailsStyle > div > div:first-child::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  background: #c1c0c1;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  z-index: -2;
+  transition: all 0.2s ease-in-out;
+}
+
+.moreDetailsStyle > div > div:first-child::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background: black;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+}
+
+.moreDetailsStyle > div:hover > div:first-child::before {
+  background-color: #e67c7c;
+  z-index: 0;
+}
+
+.moreDetailsStyle > div:hover > div:first-child::after {
+  background-color: white;
+  z-index: 1;
+}
+
+
+.moreDetailsStyle > div > div:first-child i::before{
+  position: relative;
+  z-index: 10;
+}
+.moreDetailsStyle > div:hover > div:first-child i::before {
+
+  color: black;
+}

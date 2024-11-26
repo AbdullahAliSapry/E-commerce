@@ -1,0 +1,136 @@
+.ParentDev {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.headerStyle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-self: flex-start;
+}
+.headerStyle > span {
+  font-size: 18px;
+  font-weight: 500;
+  width: 20%;
+}
+.productStyle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.productStyle > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20%;
+}
+.nameAndImg {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nameAndImg img {
+  width: 50px;
+}
+
+.priceStyle {
+}
+
+.productStyle .quntityStyle input {
+ width: 50px;
+ border: 2px solid #ccc;
+ border-radius: 5px;
+}
+
+
+.buttonsStyle{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttonMain {
+  border: none;
+  padding: 5px 17px;
+  background: rgb(219, 68, 68);
+  border-radius: 3px;
+}
+.buttonMain {
+  color: white;
+}
+
+.buttonMain  >a{
+    text-decoration: none;
+    color: white;
+}
+
+.CouponDivStyle{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.CouponDivStyle input{
+    width: 200px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding:5px 20px;
+    outline: none;
+}
+
+.footerCart{
+
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerCart .allData{
+    border: 2px solid #202020;
+    padding: 20px 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+
+}
+
+.footerCart .allData h4{
+
+    font-size: 20px;
+}
+.footerCart .allData >div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5px;
+
+}
+.footerCart .allData >div:not(:nth-child(4)){
+
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.footerCart .allData button{
+
+    width: fit-content;
+    margin: auto;
+}
+
+.footerCart .allData span{
+
+    font-size: 15px;
+}

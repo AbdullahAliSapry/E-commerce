@@ -1,0 +1,84 @@
+:root {
+  --color-main: #00ff66;
+}
+
+.parentCon {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  align-items: flex-start;
+  background-color: black;
+  margin: 20px 0;
+  border-radius: 5px;
+  color: white;
+}
+.DetailsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  padding: 40px;
+}
+.DetailsSection > h4 {
+  color: var(--color-main);
+  font-size: 18px;
+}
+.DetailsSection > span {
+  color: white;
+  font-size: 46px;
+  max-width: 400px;
+  text-transform: capitalize;
+}
+.styleImg {
+  height: 475px;
+  object-fit: contain;
+  transform: rotateY(180deg);
+  display: inline-block;
+  filter: drop-shadow(0 0 6rem white);
+  border-radius: 50%;
+}
+.conImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.conToTimer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.conToTimer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+}
+
+.conToTimer > div > span {
+  font-size: 10px;
+  text-transform: capitalize;
+}
+
+.conToTimer > div > span:nth-child(2) {
+  font-weight: 600;
+}
+.DetailsSection > button {
+  width: 171px;
+  height: 56px;
+  border: none;
+  background-color: var(--color-main);
+  border-radius: 5px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+}

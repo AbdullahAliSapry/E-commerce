@@ -1,0 +1,30 @@
+.topHeader {
+  display: flex;
+  background-color: black;
+  color: rgb(125, 125, 125) ;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  height: 40px;
+}
+
+.Btn_lang {
+  background: none !important;
+  border: none;
+  color: rgb(192, 192, 192) !important;
+}
+
+.linkTOShop{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(159, 159, 159);
+}
+.topHeader .RightSection{
+
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}

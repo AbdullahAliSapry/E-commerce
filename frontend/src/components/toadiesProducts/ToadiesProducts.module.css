@@ -1,0 +1,41 @@
+.parentContainer {
+  padding: 50px 0;
+}
+
+/* // parent to time and title */
+.parentContainer > div:first-child > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+
+}
+.parentContainer > div:first-child > div > h2 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.parentContainer > div:first-child > div > div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.columnStyle{
+    color: #db4444;
+    font-size: 30px;
+    padding-top: 9px;
+}
+.parentContainer > div:first-child > div > div>div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.parentContainer > div:first-child > div > div>div>span:nth-child(1) {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.parentContainer > div:first-child > div > div>div>span:nth-child(2) {
+    font-weight: 700;
+    font-size: 25px;
+}

@@ -1,0 +1,55 @@
+.imageDrowpStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+.imageDrowpStyle2 {
+  background-color: rgb(219, 68, 68);
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.styleItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 10px;
+  color: white;
+}
+.styleItem i {
+  font-size: 18px !important;
+}
+.styleItem span {
+  font-size: 16px !important;
+}
+
+.parentDrowp {
+  background-color: #4b4b4bb4;
+  color: white;
+}
+
+.logOutParent {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}

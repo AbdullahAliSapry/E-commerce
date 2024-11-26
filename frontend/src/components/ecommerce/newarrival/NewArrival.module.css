@@ -1,0 +1,146 @@
+.parentDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.parentContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 0;
+}
+.rightSec {
+  width: 570px;
+  height: 511px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 5px;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.details {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-self: flex-start;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.details .title {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 0;
+}
+.details .description {
+  color: #fafafad5;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 300px;
+}
+.details button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  width: fit-content;
+  padding: 5px 0;
+  margin: 0;
+}
+.details button > a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid #777;
+}
+.rightSec > div > img {
+  width: 511px;
+  height: 511px;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: 511px;
+  align-self: center;
+}
+
+/* left first child */
+
+.leftSection > div:first-child {
+  background-color: black;
+  width: 570px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+
+.leftSection .details{
+    bottom: 0;
+    left: 0;
+}
+.leftSection > div:first-child > img {
+  width: 400px;
+  transform: rotateY(180deg);
+}
+
+.leftSection > div:nth-child(2) {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  justify-content: flex-start;
+}
+.leftSection > div:nth-child(2) > div {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  border-radius: 5px;
+  position: relative;
+}
+.leftSection > div:nth-child(2) > div > img {
+  width: 210px;
+  height: 221px;
+}
+.leftSection > div:nth-child(2) > div .details .title{
+
+    font-size: 15px;
+}
+
+.leftSection > div:nth-child(2) > div .details .description{
+
+    font-size: 12px;
+}
+
+@media(max-width:1200px){
+    .parentContent{
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .leftSection{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .leftSection>div:nth-child(2){
+        justify-content: center;
+    }
+}

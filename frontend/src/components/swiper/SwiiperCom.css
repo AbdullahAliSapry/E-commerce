@@ -1,0 +1,56 @@
+ .carousel__img {
+    width: 60%;
+    max-height: 400px;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    z-index: -100000;
+}
+
+.swiperHeader .swiper-slide {
+  padding: 40px;
+}
+.swiperHeader
+.swiper-slide > div > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiperHeader .swiper-slide > div > div:first-child > img {
+  width: 50px;
+}
+.swiperHeader .swiper-slide > div > div:nth-child(2) > span {
+  font-size: 50px;
+  max-width: 300px;
+  display: inline-block;
+}
+.swiperHeader .swiper-slide > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.swiperHeader .swiper-slide > div > div:nth-child(3) {
+  display: flex;
+  align-items: center;
+}
+.swiperHeader .swiper-slide > div > div:nth-child(3) > button {
+  background: transparent;
+  color: #fafafa;
+  border: none;
+  border-bottom: 2px solid #fafafa;
+}
+.swiperHeader .swiper-slide > div > div:nth-child(3) > i {
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.swiperHeader .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #db4444 !important;
+}
+.swiperHeader .swiper-pagination-bullet {
+  width: 14px !important;
+  height: 14px !important;
+}

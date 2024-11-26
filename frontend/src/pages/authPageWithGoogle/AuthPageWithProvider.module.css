@@ -1,0 +1,22 @@
+.borderTOmain {
+  height: 1px;
+  background-color: rgb(179, 179, 179);
+}
+.stylesToMainLayOut {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+.styleToPage h1{
+    font-size: 60px;
+    font-weight: bold !important;
+    
+}
+
+.success{
+  color: #00FF66;
+}
+
+.falied{
+  color: rgb(187,45,59);
+}

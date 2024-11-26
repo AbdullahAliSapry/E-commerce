@@ -1,0 +1,11 @@
+.borderTOmain {
+  height: 1px !important;
+  background-color: rgb(179, 179, 179) !important;
+}
+.stylesToMainLayOut {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+

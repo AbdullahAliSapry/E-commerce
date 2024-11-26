@@ -1,0 +1,122 @@
+.parentDiv {
+  padding: 100px 0;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.rightSec {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.headerStyleIcon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.headerStyleIcon i {
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  background: rgb(219, 68, 68);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+}
+.headerStyleIcon span {
+  font-weight: 600;
+}
+
+.detailsStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  padding: 10px 8px;
+}
+
+.detailsStyle > span {
+  font-weight: 500;
+  max-width: 300px;
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  padding: 10px 8px;
+}
+
+.formStyle > div:first-child {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+
+.formStyle > div:first-child>input{
+
+    padding: 10px 5px;
+}
+.formStyle >textarea,.formStyle > div:first-child>div>input{
+
+    border: none;
+    background-color: #f5f5f5;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.formStyle >textarea:focus,.formStyle > div:first-child>input{
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+    box-shadow: none;
+}
+
+.styleButton{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+
+}
+
+@media(max-width:768px){
+
+    .parentDiv{
+        flex-direction: column;
+        align-items: center;
+         gap: 10px;
+    }
+
+    .parentDiv >:nth-child(2){
+        padding: 20px;
+       
+    }
+
+    .parentDiv >:nth-child(2)>form>div:first-child{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .parentDiv >:first-child .headerStyleIcon{
+
+        justify-content: center;
+    }
+
+    .detailsStyle{
+
+        align-items: center;
+        text-align: center;
+    }
+
+}

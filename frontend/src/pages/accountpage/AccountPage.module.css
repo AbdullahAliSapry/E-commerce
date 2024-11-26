@@ -1,0 +1,32 @@
+.parentDev {
+  padding: 50px 0;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title > span {
+  padding: 0 5px;
+  color: rgb(219, 68, 68);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+.contentStyle {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.contentStyle  >div:first-child{
+  flex: 4;
+}
+.contentStyle  >div:nth-child(2){
+  flex: 8;
+}
+.styleConCom{
+  padding-top: 50px;
+}

@@ -1,0 +1,16 @@
+.mainConToProducts {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  margin: auto;
+  justify-content: center;
+}
+.parentPag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  width: 100%;
+}
+

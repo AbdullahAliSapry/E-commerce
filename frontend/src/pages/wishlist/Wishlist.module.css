@@ -1,0 +1,47 @@
+.parentCon {
+  padding: 40px 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title > h1 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.conToCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.conTOHeader{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conTOHeader >div:first-child h4{
+
+    color: black !important;
+    text-transform: capitalize;
+}
+@media (max-width: 540px) {
+  .conToCards {
+    flex-direction: column;
+  }
+  .title{
+    padding: 20px 10px;
+  }
+}

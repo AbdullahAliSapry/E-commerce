@@ -1,0 +1,96 @@
+
+.imgCard {
+  width: 178px;
+  height: 129px;
+  object-fit: contain;
+}
+.conToImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerToImg {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+.iconsStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.discount {
+  height: fit-content;
+  display: inline-block;
+  padding: 3px;
+  background: #db4444;
+  color: white;
+  border-radius: 5px;
+}
+
+.iconsStyle > i {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.iconsStyle > i::before {
+  font-weight: 600 !important;
+}
+
+.buttonStyle {
+  border: none;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom:0;
+  transition: all 0.4s ease;
+}
+
+.containerToImg:hover .buttonStyle {
+  bottom: 0;
+}
+.nameProduct {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.priceProduct {
+  color: #db4444;
+}
+.priceCon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.discontPrice {
+  color: #b9b9b9;
+  text-decoration: line-through;
+}
