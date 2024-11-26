@@ -30,3 +30,17 @@ A feature-rich e-commerce platform built using React and Express.js. The platfor
    ```bash
    git clone https://github.com/your-username/ecommerce-platform.git
    cd ecommerce-platform
+
+Install dependencies:
+
+npm install
+cd client  
+npm install
+
+
+Create a .env file in the root directory and add the following:
+env
+نسخ الكود
+PORT=5000  
+MONGO_URI=your-mongodb-uri  
+JWT_SECRET=your-secret-key  
